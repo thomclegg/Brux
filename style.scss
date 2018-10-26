@@ -1,0 +1,17 @@
+@import "normalise";
+
+$mobile-screen: 425px;
+$tablet-screen: 768px;
+
+@mixin mq($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+
+
+.image img {
+  @include mq(1024px) {
+    width: 50%;
+  };
+}

@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+
+  section.hero {
+    background-position: 180px;
+  }
+
+  section.content div.content {
+    flex: 0 0 35%;
+    margin: 0 0 0 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    padding: 1em 0 1em 0;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.burger {
+    display: block;
+  }
+
+}
