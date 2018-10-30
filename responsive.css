@@ -33,6 +33,14 @@
     padding: 0 5% 0 5%;
   }
 
+  section.hero {
+    padding: 148px 5% 148px 5%;
+  }
+
+  .hero p {
+    max-width: 80%;
+  }
+
   section.content {
     flex-direction: column;
   }
@@ -43,6 +51,10 @@
 
   section.content:nth-child(even) {
       flex-direction: column;
+  }
+
+  section.content div.image {
+    margin-bottom: 24px;
   }
 
 
